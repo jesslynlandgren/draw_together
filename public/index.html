@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Draw Together!</title>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="socket.io/socket.io.js"></script>
+
+
+    </head>
+    <body>
+        <div class="leftDiv">
+            <span class="title">Pictionary</span>
+            <div class="canvasDiv">
+                <canvas id="canvas"></canvas>
+                <canvas id="buffer"></canvas>
+            </div>
+        </div>
+
+        <div class="chatDiv">
+            <div class="chatStatusDiv">
+                <p>You are playing with USERNAME</p>
+            </div>
+            <div class="chatHistoryDiv">
+
+            </div>
+            <div class="chatSendDiv">
+
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/frontend.js"></script>
+</html>
